@@ -335,6 +335,40 @@ article:hover .producto-footer .title {
     transition: 0.5;
 }
 
+/* LOG IN / REGISTER */
+
+.customer-login .account-form {
+    width: 38%;
+    padding: 25px 0 100px;
+}
+
+.customer-login .account-form .wrap-around {
+    margin-top: 20px;
+}
+
+ .email, .comments-wrap textarea, .comments-wrap input[type="text"], .pxs-newsletter-form-input, .password-page-field-wrap .password-page-input, .product-quantity-input, .option-value-name {
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    padding: 14px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 0;
+    outline: 0;
+    transition: 0.15s cubic-bezier(0.4, 0, 0.2, 1) border;
+}
+
+
+
+
+
+
 @media (min-width: 361px)  {
 
 }
