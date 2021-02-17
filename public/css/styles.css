@@ -135,6 +135,17 @@ section h3 {
 
 .sector-banner {
     padding: 1px;
+    overflow: hidden;
+}
+
+.sector-banner img {
+    transition: transform .5s, filter 1s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.sector-banner:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 .items-3 img {
@@ -312,6 +323,8 @@ a:hover {
 
 a {
     transition: 0.5s;
+    text-decoration: none;
+    color: inherit;
 }
 
 button {
@@ -333,7 +346,14 @@ article:hover .producto-footer .title {
 
 .producto-footer .title {
     transition: 0.5;
+    overflow: hidden;
+    max-height: 38px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
+
+
 
 /* LOG IN / REGISTER */
 
